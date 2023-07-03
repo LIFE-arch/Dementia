@@ -47,3 +47,23 @@ nav ul {
 	line-height: 1.25rem;
 	letter-spacing: -0.015rem;
 }
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+	header {
+	  padding: 1rem 2rem;
+	}
+  
+	button {
+	  padding: 1rem 3rem;
+	}
+  
+	h2 {
+	  font-size: 1.8rem;
+	}
+  
+	nav ul {
+	  font-size: 1rem;
+	}
+  }
+  
