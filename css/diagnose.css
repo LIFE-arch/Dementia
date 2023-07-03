@@ -181,3 +181,148 @@ section.result > div span,
 	border: 1px solid #000;
 	background-color: transparent;
 }
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  main {
+    margin: 3rem;
+    padding: 2rem;
+  }
+
+  main h2 {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+
+  form {
+    padding-bottom: 4rem;
+  }
+
+  .first-section > div {
+    margin-bottom: 1.5rem;
+  }
+
+  label {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  input[type='text'],
+  input[type='number'],
+  textarea {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .radio-group {
+    font-size: 1.1rem;
+  }
+
+  input[type='radio'],
+  input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+  }
+
+  .age-gender {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .gender-con {
+    margin-bottom: 2rem;
+  }
+
+  .gender-con label {
+    text-align: left;
+  }
+
+  .gender-con > div {
+    justify-content: space-between;
+    gap: 1.5rem;
+    height: auto;
+  }
+
+  .weight-con label {
+    text-align: left;
+    margin-bottom: 0.8rem;
+  }
+
+  .weight-con > div {
+    grid-template-columns: 1fr;
+  }
+
+  .weight-con span {
+    margin-bottom: 0.8rem;
+  }
+
+  .second-section > div {
+    margin-bottom: 2rem;
+  }
+
+  .second-section .scores {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .condition {
+    text-align: left;
+  }
+
+  .condition p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .symptoms label {
+    text-align: left;
+  }
+
+  .symptoms > div {
+    width: 100%;
+    margin: 1rem 0 0;
+  }
+
+  .symptoms span {
+    margin-bottom: 0.8rem;
+  }
+
+  .second-section > button {
+    margin: 2rem auto 0;
+  }
+
+  section.result h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  section.result > div {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .result-symptoms {
+    margin-top: 0.3rem;
+  }
+
+  .result-symptoms > div {
+    margin-bottom: 0.3rem;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .btn-group button {
+    flex: none;
+    width: 100%;
+  }
+
+  .btn-group button:last-child {
+    color: #ff9900;
+    border: 1px solid #000;
+    background-color: transparent;
+  }
+}
